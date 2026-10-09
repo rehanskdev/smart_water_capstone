@@ -144,7 +144,12 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpenMobile, onCloseMobile })
       <div className="p-4 border-t border-slate-800 bg-slate-950/40 space-y-3">
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 text-sky-400 flex items-center justify-center text-xs font-bold shrink-0">
-            AD
+            {settings.account.name
+              .split(' ')
+              .map((n) => n[0])
+              .join('')
+              .slice(0, 2)
+              .toUpperCase()}
           </div>
           <div className="min-w-0">
             <div className="text-xs font-semibold text-white truncate">

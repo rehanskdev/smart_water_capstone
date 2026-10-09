@@ -812,8 +812,8 @@ export const INITIAL_SETTINGS: SystemSettings = {
     waterSupplyCapacityLiters: 160000,
   },
   account: {
-    name: 'Arjun Deshmukh',
-    email: 'a.deshmukh@municipalwater.gov.in',
+    name: 'Rehan Shaikh',
+    email: 'rehan.shaikh@municipalwater.gov.in',
     role: 'Senior Network Control Operator',
   },
 };
