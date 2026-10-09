@@ -1,0 +1,6 @@
+{
+  "name": "Smart Water Network",
+  "description": "Municipal water utility monitoring, leak localization, and consumption forecasting platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
